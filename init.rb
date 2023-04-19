@@ -1,5 +1,6 @@
+# plugins/redmine_video_embed/init.rb
 require 'redmine'
-require_dependency 'redmine/wiki_formatting/textile/formatter'
+require_dependency 'redmine_video_embed_patch'
 
 Redmine::Plugin.register :redmine_video_embed do
   name 'Redmine Video Embed Plugin'

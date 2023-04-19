@@ -1,3 +1,4 @@
+// plugins/redmine_video_embed/assets/javascripts/video_embed.js
 $(document).ready(function () {
     var commentArea = $('#notes');
     if (!commentArea.length) {
